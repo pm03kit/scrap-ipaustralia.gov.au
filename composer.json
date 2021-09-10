@@ -1,0 +1,24 @@
+﻿{
+    "name": "2kit/scrap-ipaustralia.gov.au",
+    "description": "Scrape serps (search engine results pages) from ipaustralia.gov.au",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.3",
+        "symfony/finder": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "2kit\\ScrapIpaustraliaGovAu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Klymenko",
+            "email": "sg.klymenko@gmail.com"
+        }
+    ]
+}
